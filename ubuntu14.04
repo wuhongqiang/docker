@@ -1,5 +1,5 @@
     FROM registry.cn-hangzhou.aliyuncs.com/docker/ubuntu14.04   
     MAINTAINER ben<56725542@qq.com>   
     RUN apt-get update 
-    RUN apt-get install build-essential
+
     EXPOSE 22 CMD ["/usr/sbin/sshd", "-D"]  
