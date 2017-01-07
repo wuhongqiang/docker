@@ -1,5 +1,5 @@
     FROM registry.cn-hangzhou.aliyuncs.com/docker/ubuntu14.04   
     MAINTAINER ben<56725542@qq.com>   
     RUN apt-get update 
-
-    EXPOSE 22 CMD ["/usr/sbin/sshd", "-D"]  
+    EXPOSE 22 
+    CMD ["/usr/sbin/sshd", "-D"]  
